@@ -1,5 +1,5 @@
 # Render Current Frame
-Blender VSE operator for rendering current frame directly to harddisk
+Blender VSE operator for rendering current frame directly to harddisk.
 
 ## Where
 Exposed in the View menu.
