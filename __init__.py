@@ -67,11 +67,13 @@ def menu_append(self, context):
 
 
 def register():
+    bpy.utils.register_class(OPERATOR_OT_render_to_file)
     bpy.types.SEQUENCER_MT_view.append(menu_append)
 
 
 def unregister():
     bpy.types.SEQUENCER_MT_view.remove(menu_append)
+    bpy.utils.unregister_class(OPERATOR_OT_render_to_file)
 
 
 if __name__ == "__main__":
